@@ -7,3 +7,17 @@ Libraries and Dependencies used:
 - jdbc-h2
 - resteasy
 - resteasy-jackson
+- quarkus-smallrye-jwt
+- commons-beanutils
+
+### Endpoints
+
+AuthResource
+
+- POST /api/auth/login
+- GET /api/auth/user-logged
+
+UserResource
+
+- GET /api/users
+- POST /api/users
