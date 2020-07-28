@@ -1,0 +1,7 @@
+https://quarkify.net/simple-jwt-token-authentication-with-quarkus/
+https://medium.com/@ard333/authentication-and-authorization-using-jwt-on-quarkus-aca1f844996a
+
+@ApplicationScoped = O Bean existe durante a vida útil da aplicação. Seu estado é compartilhado
+para todas as solicitações.
+
+@RequestScoped = O Bean existe apenas durante a vida útil de uma solicitação.
